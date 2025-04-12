@@ -15,7 +15,7 @@ print("name tool by zante")
 delay = 0
 
 
-def generate_telepatia_username():
+def generate_zante_username():
     return input("search name: ")
 
 def check_username_availability(claim):
@@ -51,5 +51,5 @@ if __name__ == "__main__":
     while True:
         time.sleep(delay)
         init(autoreset=True)
-        username = generate_telepatia_username()
+        username = generate_zante_username()
         check_username_availability(username)
